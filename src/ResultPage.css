@@ -1,0 +1,30 @@
+.resultCard {
+  padding-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  column-gap: 100px;
+  row-gap: 60px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: 400px;
+  background-color: darkolivegreen;
+}
+.card:hover {
+  box-shadow: 0 12px 20px 0 rgba(0, 0, 0, 0.2);
+}
+.textSpace {
+  padding: 2px 16px;
+}
+
+img {
+  height: 200px;
+  width: 200px;
+}
+
+h3 {
+  color: white;
+}
